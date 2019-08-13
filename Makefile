@@ -13,7 +13,9 @@ help:
 
 init:
 	pip3 install -r requirements.txt
-
+	createdb planet
+	createdb planet_test
+	
 test:
 	pytest -v planet/tests
 
