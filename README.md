@@ -21,31 +21,22 @@ cd planet
 ### Creating and activating virtualenv
 ```
 virtualenv -p python3 venv
-virtualenv venv
 . venv/bin/activate source
 ```
 
 ### Prerequisites
-To install the project with all the requirements, run:
+To install the project with all the requirements and create the database, run:
 ```
 make init
 ```
-or
-```
-pip install -r requirements.txt
-```
 Installing Flask and other dependencies
+Create the database (Running the instance later will automatically setup the database schema.)
 
-
-### Create the database
-```
-CREATE DATABASE planet;
-CREATE DATABASE planet_test;
-```
-Running the instance later will automatically setup the database schema.
+Databases created: planet and planet_test
 
 ### Running the app
 Configure your tunnel to forward to localhost:5000. To run the development server, run:
+
 Export
 ```
 export FLASK_APP=planet
