@@ -82,7 +82,7 @@ make test
 ```
 or
 ```
-pytest -v tests/
+pytest -v planet/tests/
 ```
 #### For specific tests:
 
