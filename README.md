@@ -66,12 +66,11 @@ flask db_drop
 
 
 ### Running the tests
-
-Run the basic test suite with:
 ```
 make test
 ```
-or
+or run the basic test suite with:
+
 ```
 pytest -v planet/tests/
 ```
