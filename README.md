@@ -30,6 +30,7 @@ To install the project with all the requirements and create the database, run:
 make init
 ```
 Installing Flask and other dependencies
+
 Create the database (Running the instance later will automatically setup the database schema.)
 
 Databases created: planet and planet_test
