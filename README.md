@@ -98,3 +98,7 @@ pytest -v planet/tests/test_company.py -k test_add_company
 ### Built With
 
 * [Flask] - The web framework used
+
+### Author
+
+* milktea
